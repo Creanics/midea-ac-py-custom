@@ -47,6 +47,13 @@ async def async_setup_entry(
                     SensorDeviceClass.TEMPERATURE,
                     UnitOfTemperature.CELSIUS,
                     "outdoor_temperature"),
+        
+        # Target Temperature
+        MideaSensor(coordinator,
+                    "target_temperature",
+                    SensorDeviceClass.TEMPERATURE,
+                    UnitOfTemperature.CELSIUS,
+                    "target_temperature"),
 
         # Energy sensors
         MideaEnergySensor(coordinator,
