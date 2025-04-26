@@ -213,6 +213,9 @@
       "indoor_temperature": {
         "name": "Indoor temperature"
       },
+      "target_temperature": {
+        "name": "Target Temperature"
+      },
       "outdoor_temperature": {
         "name": "Outdoor temperature"
       },
